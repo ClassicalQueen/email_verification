@@ -1,0 +1,62 @@
+.main{
+    background: radial-gradient(circle, rgb(141, 48, 184) 0%, rgba(31,52,240,1) 100%);
+    color: white;
+    padding: 30px;
+    margin: none;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    background: radial-gradient(circle, rgb(184, 48, 123) 0%, rgb(54, 125, 206) 100%);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.firstside{
+    margin-left: 10%;
+    margin-top: 80px;
+
+}
+
+.p1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.p2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.secondside{
+    margin-left: 30%;
+   
+}
+
+.inputbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%; 
+}
+
+span{
+    color: red;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
