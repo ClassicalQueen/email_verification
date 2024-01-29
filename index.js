@@ -14,11 +14,17 @@ document.getElementById("submit").addEventListener("click", function() {
     let minPasswordLength = 6;
     if (passwordInput.value.length < minPasswordLength) {
         passwordErrorMessage.innerText = "Password must be at least " + minPasswordLength + " characters long";
+        emailInput.value = "";
+        passwordInput.value = "";
     } else {
+        emailInput.value = "";
+        passwordInput.value = "";
         passwordErrorMessage.innerText = "";
     }
 
     if (emailErrorMessage.innerText === "" && passwordErrorMessage.innerText === "") {
+        emailInput.value = "";
+        passwordInput.value = "";
         alert("You are logged in");
     } 
 });
